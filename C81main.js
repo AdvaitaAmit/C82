@@ -15,11 +15,11 @@ function my_mousedown(e){
 
 canvas.addEventListener("mouseup", my_mouseup)
 function my_mouseup(e){
-    mouseEvent=mouse_up
+    mouseEvent="mouse_up"
 }
 canvas.addEventListener("mouseleave", my_mouseleave)
 function my_mouseleave(e){
-    mouseEvent=mouse_leave
+    mouseEvent="mouse_leave"
 }
 canvas.addEventListener("mousemove", my_mousemove)
 function my_mousemove(e){
